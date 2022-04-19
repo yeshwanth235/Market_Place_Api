@@ -1,0 +1,68 @@
+.napi-content {
+  position: absolute;
+  width: 498px;
+  height: max-content;
+  left: 40%;
+  top: 30%;
+  border-radius: 1rem;
+  align-items: center;
+  background: #dd9393;
+}
+
+#i-two {
+  height: 64px;
+}
+
+#i-three {
+  height: 74px;
+}
+
+.napi-content input {
+  width: 400px;
+  height: 44px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  font-size: 17px;
+  border: 1px solid rgba(158, 171, 187, 0.8);
+  border-radius: 5px;
+}
+
+.napi-content p {
+  margin: 47px 0 30px 40px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+}
+
+.napi-content button {
+  color: white;
+  width: 400px;
+  height: 48px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  font-size: 19px;
+  border: none;
+  background: #142683;
+}
+
+.napi-content button:hover {
+  cursor: pointer;
+  color: #ccc;
+  box-shadow: 5px 5px #ccc;
+}
+
+input[type="file"] {
+  /* display: none; */
+  border: none;
+}
+
+.imgF {
+  border: 1px solid #ccc;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}

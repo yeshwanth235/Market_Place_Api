@@ -1,0 +1,47 @@
+.api {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 6rem 3rem 11rem;
+}
+
+.api-items {
+  width: 350px;
+  height: max-content;
+  margin-bottom: 80px;
+  text-align: center;
+  border: 1px solid #d8d9db;
+  border-radius: 1rem;
+}
+
+.api-items:hover {
+  background-color: #d8d9db;
+}
+
+.api-items a {
+  display: block;
+}
+
+.api-items img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 1rem;
+  width: 80%;
+  height: 220px;
+}
+
+.api-items span {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+}
+
+.api-items p {
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 20px;
+  letter-spacing: -0.02em;
+  color: #566474;
+}

@@ -1,0 +1,46 @@
+.navbar {
+  height: 88px;
+  /* background-color: #142683; */
+  border-bottom: 1px solid #f7f8fa;
+}
+
+#logo {
+  position: absolute;
+  left: 60px;
+  top: 28px;
+}
+
+.nav-items {
+  float: right;
+  margin-top: 20px;
+  margin-right: 45px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #566474;
+  font-weight: 500;
+  font-size: 19px;
+  margin-right: 90px;
+}
+
+.nav-items button {
+  color: white;
+  border: none;
+  width: 133px;
+  height: 44px;
+  background: #1e272e;
+  font-size: 18px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px #ccc;
+}
+
+#cancel {
+  float: right;
+}

@@ -1,0 +1,87 @@
+.h-main {
+  font-family: "DM Sans";
+  /* background: rgba(247, 248, 250, 0.5); */
+  height: 880px;
+}
+
+.bgmain {
+  position: absolute;
+  margin-left: 15%;
+  width: 1240px;
+  height: 186px;
+  left: 100px;
+  top: 148px;
+  background: #c3e7fd;
+  border-radius: 10px;
+}
+
+#semi {
+  position: absolute;
+  width: 407px;
+  height: 186px;
+  background: #d3b4f6;
+  border-radius: 1000px 0px 0px 1000px;
+  transform: rotate(-180deg);
+}
+
+.bgmain img {
+  position: absolute;
+  z-index: 1;
+  width: 294px;
+  height: 186px;
+}
+
+.content {
+  float: right;
+}
+
+.content-items {
+  /* position: relative; */
+  float: left;
+  margin-top: 20px;
+  margin-right: 150px;
+}
+
+.content-items h5 {
+  font-family: Bebas Neue;
+  font-size: 48px;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+
+.content-items p {
+  font-size: 28px;
+  color: #566474;
+  margin-top: 10px;
+}
+
+.content a {
+  text-decoration: none;
+  border: none;
+  color: #fff;
+}
+
+.content button {
+  width: 133px;
+  height: 44px;
+  font-size: 18px;
+  color: #fff;
+  background: #1e272e;
+  border-radius: 5px;
+  margin-top: 79px;
+  margin-right: 90px;
+}
+
+.content button:hover {
+  box-shadow: 5px 5px #566474;
+}
+
+#api-p {
+  position: relative;
+  font-size: 24px;
+  margin-left: 180px;
+}
+
+.ApiD {
+  padding-top: 300px;
+}
